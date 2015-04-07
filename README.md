@@ -8,7 +8,7 @@ This [fed](https://github.com/MamadouSy/fed) extension allows to execute git com
 Please install [fed](https://github.com/MamadouSy/fed) first, then:
 
     $ sudo npm install --global node-fed-git
-    $ sudo fed fed-add-modules node-fed-git
+    $ sudo fed fed-add-modules node-fed-git --global
 
 ## Usage
 
