@@ -18,11 +18,11 @@ exports.name = "fed-git";
 /**
  * Test if the command start with main git command
  *
- * @param {Object} dir Directory information
  * @param {String} command Command to run
+ * @param {Object} dir Directory information
  * @returns {boolean}
  */
-exports.canDo = function canDoGitCommand(dir, command) {
+exports.canDo = function canDoGitCommand(command, dir) {
     if (!dir.repository || dir.repository.type !== 'git') {
         return false;
     }
@@ -37,12 +37,13 @@ exports.canDo = function canDoGitCommand(dir, command) {
 };
 
 /**
+ * Return the command to execute
  *
- * @param {Object} dir Directory information
  * @param {String} command Command to run
+ * @param {Object} dir Directory information
  * @returns {String}
  */
-exports.getCommand = function getGitCommand(dir, command) {
+exports.getCommand = function getGitCommand(command,dir) {
     var isClone = (/^(clone)/.test(command)), key;
 
 

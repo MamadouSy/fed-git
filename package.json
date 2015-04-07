@@ -1,5 +1,5 @@
 {
-    "name": "fed-git",
+    "name": "node-fed-git",
     "version": "1.0.0",
     "description": "fed module to manage git repositories under a parent directory",
     "author": "Mamadou Sy",

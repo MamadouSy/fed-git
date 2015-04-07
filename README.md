@@ -2,6 +2,14 @@
 
 This [fed](https://github.com/MamadouSy/fed) extension allows to execute git command on several git repositories.
 
+
+## Installation
+
+Please install [fed](https://github.com/MamadouSy/fed) first, then:
+
+    $ npm install --global node-fed-git
+    $ fed fed-add-modules fed-git
+
 ## Usage
 
     $ fed [directories...] <git-command>
@@ -145,8 +153,4 @@ Create a branch for each repositories on a group
     On repo3...
     
     Switched to a new branch 'featureC'
-
-## Installation
-
--TODO-
 
