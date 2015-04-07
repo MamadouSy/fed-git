@@ -13,7 +13,7 @@ var commands = {
  * Name of the fed module
  * @type {string}
  */
-exports.name = "fed-git";
+exports.name = "node-fed-git";
 
 /**
  * Test if the command start with main git command
