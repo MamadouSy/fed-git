@@ -1,6 +1,6 @@
 {
     "name": "node-fed-git",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "fed module to manage git repositories under a parent directory",
     "author": "Mamadou Sy",
     "keywords" : ["fed", "fed-git", "for each directories","directories", "shell"],

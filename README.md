@@ -21,7 +21,7 @@ If loop through all directories (from config) by default
 - git-command 
 One of the following git command: 
 init, clone, status, checkout, branch,
-merge, commit, add, stash
+merge, commit, push, add, stash
 
 ## fed.json
 
