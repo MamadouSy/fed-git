@@ -6,6 +6,7 @@ var commands = {
     "branch"    : "git branch",
     "merge"     : "git merge",
     "commit"    : "git commit",
+    "push"      : "git push",
     "add"       : "git add",
     "stash"     : "git stash"
 };
